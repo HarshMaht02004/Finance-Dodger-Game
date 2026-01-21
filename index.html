@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Finance Dodge Runner</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="app-shell">
+
+    <!-- HEADER -->
+    <header class="top-bar">
+      <h1 class="glow-title">FINANCE DODGE RUNNER</h1>
+      <p class="tagline">Learn money decisions the hard way 💸</p>
+    </header>
+
+    <!-- INSTRUCTIONS SCREEN -->
+    <div id="instructionsScreen" class="instructions glass">
+      <h2 class="glow-text">🎮 How to Play</h2>
+
+      <!-- NEW FLEX CONTAINER -->
+      <div class="instructions-content">
+
+        <!-- LEFT: RULES -->
+        <div class="instructions-text">
+          <ul class="rules">
+            <li>⬆️ ⬇️ Use <b>Arrow Keys</b> to move</li>
+            <li>✅ Hitting a good decision → <b>+10 points</b></li>
+            <li>❌ Hitting a bad decision → <b>−15 points</b></li>
+
+            <li class="skip-warning">
+              ⚠️ Skipping a good decision → <b>−10 points</b>
+            </li>
+
+            <li class="game-end-warning">
+              💥 Game ends at <b>−20 points</b>
+            </li>
+          </ul>
+        </div>
+
+        <!-- RIGHT: IMAGE -->
+      <div class="instructions-image">
+  <div class="bonus-tip">BONUS TIP BY ME</div>
+  <img src="nirmala.jpeg" alt="Tax meme" />
+</div>
+
+
+
+      </div>
+
+      <button class="start-btn" onclick="startGame()">Start Game</button>
+    </div>
+
+    <!-- MAIN GAME AREA -->
+    <main class="game-wrapper hidden" id="gameArea">
+
+      <!-- GAME CANVAS -->
+      <section class="game-panel glass">
+        <canvas id="gameCanvas" width="900" height="420"></canvas>
+      </section>
+
+      <!-- SCORE PANEL -->
+      <aside class="score-panel glass">
+        <h2 class="glow-text">SCORE</h2>
+
+        <div id="scoreValue" class="score-value">0</div>
+
+        <div class="progress-container">
+          <div id="progressBar" class="progress-bar"></div>
+        </div>
+
+        <div class="hud-info">
+          <p>💥 Lose at <b>0</b></p>
+          <p>🧠 Think before reacting</p>
+        </div>
+      </aside>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <span>⬆️ ⬇️ Move</span>
+      <span>🟧 Decisions are neutral — think first</span>
+    </footer>
+
+  </div>
+
+  <!-- GAME OVER SCREEN -->
+  <div id="gameOverScreen" class="game-over">
+    <div class="game-over-box glass">
+      <h2 class="glow-text">GAME OVER</h2>
+      <div id="finalScore" class="final-score">0</div>
+      <button class="retry-btn" onclick="restartGame()">Retry</button>
+    </div>
+  </div>
+
+  <script src="game.js"></script>
+</body>
+</html>
