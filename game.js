@@ -84,9 +84,10 @@ const goodItems = [
   "Start Early","Budgeting Monthly","Emergency Fund","Diversified Investing",
   "Debt Payoff","Tax Planning","Career Growth","Limiting Debt",
   "Term Insurance","Living Modestly","Continuous Learning",
-  "Index Funds","RetirementAccounts","Health Insurance","Business Equity",
-  "Delay gratification","Limit lifestyle","REITs","Corporate Bonds",
-  "Sovereign Gold","Target Funds"
+  "Index Funds","Retirement Accounts","Health Insurance","Business Equity",
+  "Delay gratification","Limit lifestyle","REITs","Corporate Bonds","Think long-term",
+  "Sovereign Gold","Target Funds","Diversify risk","Research assets","Network effectively",
+  "Optimize taxes","Private equity","Venture capital","Value stocks",
 ];
 
 const badItems = [
@@ -95,7 +96,9 @@ const badItems = [
   "Skipping Insurance","Status Chasing","Impulsive Buying",
   "Luxury Cars","Fast Fashion","Lottery Tickets","Speculative Coins",
   "No Plan","Penny stocks","Chit funds","Ponzi schemes",
-  "Skipping audits","Single-stock focus","No insurance","Chasing hype"
+  "Skipping audits","Single-stock focus","No insurance","Chasing hype","Blindly trusting",
+  "Penny stocks","Naked options","High-Risk Speculation","Poor Value Tools","Unregulated bonds",
+  "P2P lending","ULIP plans"
 ];
 
 /* ---------- DECISION QUEUE SYSTEM ---------- */
