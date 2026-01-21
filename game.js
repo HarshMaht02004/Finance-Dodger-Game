@@ -167,7 +167,7 @@ function spawnObstacle() {
 /* ---------- SPAWN LOOP ---------- */
 function spawnLoop() {
   spawnObstacle();
-  setTimeout(spawnLoop, 900);
+  setTimeout(spawnLoop, 800);
 }
 
 /* ---------- SCORE UPDATE ---------- */
