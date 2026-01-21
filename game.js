@@ -35,7 +35,7 @@ const badSounds = [
 
 // Configure all sounds
 [...goodSounds, ...badSounds].forEach(s => {
-  s.audio.volume = 0.6;
+  s.audio.volume = 0.5;
   s.audio.playbackRate = 1.0;
 });
 
